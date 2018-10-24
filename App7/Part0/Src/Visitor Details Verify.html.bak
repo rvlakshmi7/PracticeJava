@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+ 
+ button{
+   background-color: #FF0000;
+    border: round;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	}
+ 
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: Left;
+}​
+
+div{
+text-align:Left;
+}
+
+</style>
+</head>
+<center>
+<body>
+<p class="A">
+<h1><center>Verify Your Details</center></h1>
+<h2><center>Visitor Details</center></h2>
+
+ <div class="block">
+    <label for="Fname"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Fullname" name="uname" required/>
+</div>
+<div class="block">
+    <label for="mbN"><b>Mobile Number</b></label>
+    <input type="text" placeholder="Enter MobileNumber" name="Mnum" required/>
+ </div> 
+ <div class="block">
+    <label for="Email"><b>Email ID</b></label>
+    <input type="text" placeholder="Enter Email ID" name="Eid" required/>
+</div>
+<div class="block">
+    <label for="Lcn"><b>Location</b></label>
+    <input type="text" placeholder="Enter Location" name="Lcn" required/>
+ </div> 
+ <div class="block">
+    <label for="Obj"><b>Objective</b></label>
+    <input type="text" placeholder="Enter Objective" name="Obj" required/>
+	<p></p>
+</div>
+
+ <div class="block">
+	<label for="cnt" style="text-align:Left;"><b>Contact Person</b></label>
+	<span>
+    <select>
+		<option type="text" value="emp reference">Employee reference</option>
+		<option type="text" value="Job Portal">Job portal</option>
+		<option type="text" value="Other">Other</option>
+	</select><p></p>
+	</span>
+</div>
+  
+<div class="block">
+  <label for="Qul"><b>Qualification</b></label>
+  <input type="radio" name="Qualification" value="IT">IT
+  <input type="radio"  name="Qualification"value=" NON IT">NON IT<br>
+  <p></p>
+</div>
+
+<div class="block">
+    <label for="Exam" style="text-align:Left_Corner;"><b>Academics:Exam</b></label>
+   <label for="Exam" style="text-align:Left;"><b>Percentage</b></label>
+</div>
+<div class="block">
+    <label for="1"><b>1.Class X</b></label>
+	 <input type="text" placeholder="Enter Xth %" name="X" required/>
+</div>
+<div class="block">
+    <label for="2"><b>2.Class X11</b></label>
+	 <input type="text" placeholder="Enter X11th %" name="X11" required/>
+</div>
+<div class="block">
+    <label for="3"><b>Graduation</b></label>
+	 <input type="text" placeholder="Enter Gradution %" name="Grn" required/>
+</div>
+<div class="block">
+    <label for="4"><b>Masters</b></label>
+    <input type="text" placeholder="Enter Masters %" name="Masters" required/>
+</div>
+	<button class="button" >Ok</button>
+	<button class="button" >Cancel</button>
+</center> 
+</p>
+</body>
+</html>
+
+

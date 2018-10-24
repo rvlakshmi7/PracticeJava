@@ -1,0 +1,23 @@
+class Z112 
+{
+	static int i=test(); 
+	
+	static int test()
+	{
+		System.out.println("test"+i);
+		i=99;
+		main(null);
+		return 10;
+		
+	}
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("main "+i);
+		i=33;
+		//System.out.println(test());
+		//i=test();
+		System.out.println("main end"+i);
+	}
+	
+}
