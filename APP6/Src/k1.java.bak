@@ -1,0 +1,12 @@
+class k1 
+{
+	int x;
+	x=10;
+	public static void main(String[] args) 
+	{
+		int x;
+		int x=10;
+		//k1 var=new k1();
+		System.out.println(x);
+	}
+}

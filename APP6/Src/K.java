@@ -9,7 +9,7 @@ class K
 				System.out.println(i);
 				K.i=200;
 				i=400;
-				System.out.println(K.i);
+				System.out.println(K.i=300);
 				System.out.println(i);
 
 
